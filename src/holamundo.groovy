@@ -1,1 +1,3 @@
-println "Hola Mundo Groovy"
+def printHolaMundo() {
+  sh 'echo "hola mundo" '
+}
